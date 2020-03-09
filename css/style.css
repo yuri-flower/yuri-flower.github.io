@@ -224,6 +224,9 @@ footer .pr {display: block;}
 #item-image #item_image2 {
 	z-index:1;position:absolute;overflow:hidden;width: 100%;left:0px;top:0px;
 }
+#item-image #item_image3 {
+	z-index:2;position:relative;overflow:hidden;width: 50%;
+}
 /*サムネイル画像を囲むブロック*/
 #thumbnail-box {
 	text-align: center;
@@ -245,7 +248,7 @@ footer .pr {display: block;}
 }
 /*説明文*/
 #imgcaption {
-	text-align: center;	/*文字をセンタリング*/
+	text-align:center;	/*文字をセンタリング*/
 }
 
 /*テーブル
